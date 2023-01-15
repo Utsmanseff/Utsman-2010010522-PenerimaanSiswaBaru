@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="null" language="groovy" pageWidth="792" pageHeight="612" orientation="Landscape" columnWidth="752" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="4d682da0-692c-4c28-871e-f5398b296e3c">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString language="SQL">
+		<![CDATA[select * from siswa]]>
+	</queryString>
+	<field name="NISN" class="java.lang.Long">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Nama" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="NIK" class="java.lang.Long">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="TTL" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Jurusan" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="J_kelamin" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Agama" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="S_asal" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="No_hp" class="java.lang.Long">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Alamat" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch">
+			<staticText>
+				<reportElement uuid="fbad0620-d15b-42a2-aa51-d80b02986c89" x="237" y="56" width="321" height="23"/>
+				<textElement>
+					<font fontName="Times New Roman" size="18" isBold="true"/>
+				</textElement>
+				<text><![CDATA[LAPORAN DATA SISWA BARU]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="35" splitType="Stretch">
+			<staticText>
+				<reportElement uuid="e9cd3c8a-3cdc-4e14-95cf-1a1043609ba8" x="289" y="15" width="216" height="20"/>
+				<textElement>
+					<font fontName="Times New Roman" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Madrasah Aliyyah Banjarbaru]]></text>
+			</staticText>
+			<line>
+				<reportElement uuid="0d693cfc-3ab9-46e1-a1b2-fa71683e4462" x="0" y="33" width="750" height="1"/>
+			</line>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="49" splitType="Stretch">
+			<staticText>
+				<reportElement uuid="0bea85b1-d907-401e-9a7b-c00b940063bb" x="534" y="0" width="76" height="20"/>
+				<textElement/>
+				<text><![CDATA[Asal Sekolah]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="0bea85b1-d907-401e-9a7b-c00b940063bb" x="698" y="0" width="52" height="20"/>
+				<textElement/>
+				<text><![CDATA[Alamat]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="0bea85b1-d907-401e-9a7b-c00b940063bb" x="482" y="0" width="52" height="20"/>
+				<textElement/>
+				<text><![CDATA[Agama]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="0bea85b1-d907-401e-9a7b-c00b940063bb" x="198" y="0" width="152" height="20"/>
+				<textElement/>
+				<text><![CDATA[Tempat, Tanggal Lahir]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="0bea85b1-d907-401e-9a7b-c00b940063bb" x="610" y="0" width="88" height="20"/>
+				<textElement/>
+				<text><![CDATA[No HP]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="0bea85b1-d907-401e-9a7b-c00b940063bb" x="110" y="0" width="88" height="20"/>
+				<textElement/>
+				<text><![CDATA[NIK]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="0bea85b1-d907-401e-9a7b-c00b940063bb" x="61" y="0" width="49" height="20"/>
+				<textElement/>
+				<text><![CDATA[Nama]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="0bea85b1-d907-401e-9a7b-c00b940063bb" x="3" y="0" width="58" height="20"/>
+				<textElement/>
+				<text><![CDATA[NISN]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="0bea85b1-d907-401e-9a7b-c00b940063bb" x="350" y="0" width="52" height="20"/>
+				<textElement/>
+				<text><![CDATA[Jurusan]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="0bea85b1-d907-401e-9a7b-c00b940063bb" x="402" y="0" width="80" height="20"/>
+				<textElement/>
+				<text><![CDATA[Jenis Kelamin]]></text>
+			</staticText>
+			<line>
+				<reportElement uuid="5d866f69-347c-4b72-8883-217c39a99e9d" x="708" y="43" width="1" height="174"/>
+			</line>
+			<line>
+				<reportElement uuid="5d866f69-347c-4b72-8883-217c39a99e9d" x="708" y="43" width="1" height="174"/>
+			</line>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="125" splitType="Stretch">
+			<textField>
+				<reportElement uuid="3c2497a5-a2bd-43a5-98b4-a01a9adfc9d0" x="61" y="0" width="49" height="20"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{Nama}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="3c2497a5-a2bd-43a5-98b4-a01a9adfc9d0" x="110" y="0" width="88" height="20"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{NIK}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="3c2497a5-a2bd-43a5-98b4-a01a9adfc9d0" x="198" y="0" width="152" height="20"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{TTL}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="3c2497a5-a2bd-43a5-98b4-a01a9adfc9d0" x="402" y="0" width="80" height="20"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{J_kelamin}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="3c2497a5-a2bd-43a5-98b4-a01a9adfc9d0" x="0" y="0" width="61" height="20"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{NISN}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="3c2497a5-a2bd-43a5-98b4-a01a9adfc9d0" x="350" y="0" width="52" height="20"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{Jurusan}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="3c2497a5-a2bd-43a5-98b4-a01a9adfc9d0" x="482" y="0" width="55" height="20"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{Agama}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="3c2497a5-a2bd-43a5-98b4-a01a9adfc9d0" x="537" y="0" width="73" height="20"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{S_asal}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="3c2497a5-a2bd-43a5-98b4-a01a9adfc9d0" x="610" y="0" width="88" height="20"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{No_hp}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="3c2497a5-a2bd-43a5-98b4-a01a9adfc9d0" x="698" y="0" width="49" height="20"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{Alamat}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement uuid="fae3aeea-970c-421a-b1d1-7b7e58524cf4" x="3" y="0" width="749" height="1"/>
+			</line>
+			<line>
+				<reportElement uuid="fae3aeea-970c-421a-b1d1-7b7e58524cf4" x="3" y="1" width="749" height="1"/>
+			</line>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>
